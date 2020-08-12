@@ -36,7 +36,7 @@ public class Ex1 {
 
 
 		try {
-			File writee = new File("output.txt");
+			File writee = new File("output1.txt");
 			if(!writee.exists()) {
 				writee.createNewFile();
 			}
