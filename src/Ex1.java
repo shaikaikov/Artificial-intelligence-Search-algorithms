@@ -36,7 +36,7 @@ public class Ex1 {
 
 
 		try {
-			File writee = new File("output1.txt");
+			File writee = new File("output4.txt");
 			if(!writee.exists()) {
 				writee.createNewFile();
 			}
@@ -245,7 +245,7 @@ public class Ex1 {
 		square sq2[][];
 		int c=0;
 		try {
-			FileReader file=new FileReader("C:/input6.txt");
+			FileReader file=new FileReader("C:/input4.txt");
 			reader=new BufferedReader(file);
 			String line=reader.readLine();
 			while(line!=null) {
